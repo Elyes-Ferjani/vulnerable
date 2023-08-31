@@ -1,3 +1,4 @@
+
 # py4jshell
 Simulating Log4j Remote Code Execution (RCE) [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228) vulnerability in a flask web server using python's logging library with custom formatter that simulates lookup substitution on URLs. This repository is a POC of how Log4j remote code execution vulnerability actually works, but written in python. Instead of using `JNDI+LDAP`, `HTTP` protocol is used for exploit code lookup.
 
